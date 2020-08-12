@@ -1,0 +1,259 @@
+ *,
+*::before,
+*::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  --clr-primary:#111111;
+  --clr-light: #FFFFFF;
+  --clr-bg-hero:#78310E;
+}
+
+
+.men-hero{
+  position: relative;
+  background-color: var(--clr-bg-hero);
+  height: 751px;
+  margin-top: -35px;
+}
+.men-hero-wrap{
+  display: flex;
+  
+}
+.men-hero-heading h2{
+  position: absolute;
+  color: var(--clr-light);
+  letter-spacing: 5px;
+  left: 200px;
+  top: 320px;
+}
+.men-hero-heading p{
+  position: absolute;
+  color: var(--clr-light);
+  letter-spacing: 2px;
+  left: 200px;
+  top: 300px;
+  font-weight: bold;
+}
+.men-hero-heading button{
+  position: absolute;
+  color: var(--clr-bg-hero);
+  letter-spacing: 2px;
+  left: 200px;
+  top: 390px;
+  padding:1em;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.men-hero-img{
+  position: absolute;
+  right: 150px;
+  top:1px;
+}
+.img{
+  height: 750px;
+}
+/* -----------trending---------------------- */
+
+.men-trending{
+  margin-top: 60px;
+  margin-left: 150px;
+  position: relative;
+}
+.men-trending h2{
+  position: absolute;
+  left: 500px;
+  top:-30px;
+  letter-spacing: 5px;
+  /* color: white; */
+}
+.men-types-shoe{
+  margin-left: 100px;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4,250px);
+  grid-template-rows:250px 250px ;
+  grid-gap: 10px;
+  grid-template-areas: 
+  "sport   causal  causal  climbing"
+  "sport   formal  formal  climbing"
+ 
+
+}
+.men-sport{
+  grid-area: sport;
+  background-image: url('../../assets/mensImages/sport.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.men-causal{
+  grid-area: causal;
+  background-image: url('../../assets/mensImages/causal.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+ 
+}
+.men-formal{
+  grid-area: formal;
+  background-image: url('../../assets/mensImages/Formal.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.men-climbing{
+  grid-area: climbing;
+  background-image: url('../../assets/mensImages/climbing.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.men-sport button{
+  margin-top: 460px;
+  margin-left: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  /* letter-spacing: 2px; */
+  /* background: none; */
+  cursor: pointer;
+  background-color: var(--clr-light);
+  color: rgb(138, 28, 28);
+  padding: 0.2em;
+  border-radius: 5px;
+  
+}
+
+.men-causal p{
+  margin-top: 200px;
+  margin-left: 200px;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  /* letter-spacing: 2px; */
+  /* background: none; */
+  width: 110px;
+  cursor: pointer;
+  background-color: var(--clr-light);
+  color: rgb(138, 28, 28);
+  padding: 0.2em;
+  border-radius: 5px;
+  
+}
+
+.men-formal p{
+  margin-top: 200px;
+  margin-left: 200px;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  /* letter-spacing: 2px; */
+  /* background: none; */
+  width: 115px;
+  cursor: pointer;
+  background-color: var(--clr-light);
+  color: rgb(138, 28, 28);
+  padding: 0.2em;
+  border-radius: 5px;
+  
+}
+.men-climbing p{
+  margin-top: 460px;
+  margin-left: 90px;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  /* letter-spacing: 2px; */
+  /* background: none; */
+  width: 135px;
+  cursor: pointer;
+  background-color: var(--clr-light);
+  color: rgb(138, 28, 28);
+  padding: 0.2em;
+  border-radius: 5px;
+  
+}
+
+/* ------------------------brand-------------------------------- */
+
+.men-brand{
+ margin-left: 250px;
+}
+.men-brand img{
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+ }
+.addidas{
+
+}
+.nike{
+ margin-left: 150px;
+}
+.reebok{
+ margin-left: 100px;
+}
+.puma{
+ margin-left: 150px;
+}
+
+.btn-shoes{
+  position: relative;
+  display: flex;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.btn-latest{
+  position: absolute;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+  left:245px;
+  top: -40px;
+  color: var(--clr-primary);
+  background-color: gray;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 310px;
+  padding-top:0.3em ;
+  padding-bottom:0.3em ;
+  /* padding-top:0.3em ;
+  padding-bottom:0.3em ;
+  padding-left:6em ;
+  padding-right:6em ; */
+}
+.btn-seller{
+  position: absolute;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+  left:570px;
+  top: -40px;
+  color: var(--clr-primary);
+  background-color: gray;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 310px;
+  padding-top:0.3em ;
+  padding-bottom:0.3em ;
+}
+.btn-feature{
+  position: absolute;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+  left:900px;
+  top: -40px;
+  color: var(--clr-primary);
+  background-color: gray;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 310px;
+  padding-top:0.3em ;
+  padding-bottom:0.3em ;
+}

@@ -1,0 +1,104 @@
+.shoe-list{
+  display: grid;
+  grid-template-columns: repeat(5,250px);
+  margin-left: 100px;
+  grid-gap:15px;
+
+}
+img{
+  border-radius: 5px;
+}
+.men{
+  display: grid;
+  grid-template-columns: repeat(3,300px);
+  margin-left: 280px;
+  margin-top: 10px;
+  grid-gap: 30px;
+
+  /* grid-gap:10px; */
+  /* margin-left: 100px;
+  grid-gap:15px; */
+}
+
+.shoe-wrapper{
+  /* position: absolute; */
+  /* left: 1em; */
+}
+.shoe-wrapper button{
+  font-family: Saira;
+  background-color:var(--clr-primary) ;
+  color: var(--clr-light);
+  text-align: center;
+  border-radius: 5px;
+  width: 250px;
+  padding: 10px 10px;
+  cursor: pointer;
+}
+.mens button{
+  font-family: Saira;
+  background-color:var(--clr-primary) ;
+  color: var(--clr-light);
+  text-align: center;
+  border-radius: 5px;
+  width: 300px;
+  /* padding: 10px 10px; */
+  padding-top:10px ;
+  padding-bottom:10px ;
+  padding-left:10px ;
+  padding-right:10px ;
+  cursor: pointer;
+}
+/* -----------------------------CartshoeWrapper--------------------------------------- */
+.checked {
+  color: orange;
+}
+.shoe-wrappers{
+  /* display: grid;
+  grid-template-columns: repeat(4,1fr); */
+  margin-left: 100px;
+}
+
+.shoe-wrappers img{
+  cursor: pointer;
+}
+.shoe-para{
+  margin-left: 100px;
+  margin-top: 50px;
+  font-style: normal;
+  font-weight:bold;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 1px;
+}
+.shoe-p{
+  font-style: normal;
+  font-weight:normal;
+  font-size: 13px;
+  margin-left: 40px;
+  /* line-height: 24px; */
+  /* letter-spacing: 1px; */
+}
+.shoe-code{
+  margin-top: 10px;
+  margin-left: 55px;
+  color: #3978AC;
+  font-weight:600;
+}
+.shoe-ratings{
+  margin-top: 7px;
+  margin-left: 45px;
+  letter-spacing: 2px;
+
+}
+.price-shoe{
+  margin-top: 8px;
+  margin-left: 75px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
+
+.shoe-prices{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}

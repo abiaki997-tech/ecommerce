@@ -1,0 +1,369 @@
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  --clr-primary:#111111;
+  --clr-light: #FFFFFF;
+  --clr-hero-left:linear-gradient(195.6deg, #298889 0%, #105660 100%);
+}
+
+html{
+  height: 100%;
+  overflow-x: hidden;
+}
+.body-whole{
+  /* max-width: 100%; */
+  /* max-height: 100%; */
+  /* max-width: 100vh; */
+  /* overflow-x: hidden; */
+  /* overflow-y:; */
+  font-family: 'Saira', sans-serif;
+  background:white;
+}
+header{
+  background-color: var(--clr-primary);
+  width: 1500px;
+  height: 200px;
+  /* left: 10px; */
+  bottom:35px;
+  position: relative;
+  /* position: fixed; */
+}
+#cart-icon{
+  background: white;
+  position: absolute;
+right: 20px;
+top: 3vh;
+width: 60px;
+border-radius: 5px;
+height:60px;
+cursor: pointer;
+}
+#title{
+  color: var(--clr-light);
+  position: absolute;
+  left: 600px;
+  top: 5vh;
+  font-family: 'Saira', sans-serif;
+font-style: normal;
+}
+#nike-icon{
+  margin-top: 10px;
+  position: absolute;
+  left: 10vh;
+  top: 5vh;
+}
+#name{
+  color: var(--clr-light);
+  position: absolute;
+  top: 7vh;
+  right: 170px;
+  font-weight: bold;
+}
+#name-logo{
+position: absolute;
+right: 100px;
+top: 3vh;
+letter-spacing: 5px;
+}
+.top{
+  display: flex;
+  position: relative;
+  margin-top:2em;
+  justify-content: space-around;
+}
+.down{
+  position: absolute;
+  width: 1338px;
+height: 51px;
+
+left: -20px;
+top: 120px;
+/* position: relative; */
+ 
+}
+.btn-home{
+  color: var(--clr-primary);
+  background-color: var(--clr-primary);
+  color: var(--clr-light);
+  position: absolute;
+width: 125px;
+height: 51px;
+left: 51px;
+border: none;
+font-size: 1rem;
+font-weight: bold;
+cursor: pointer;
+text-transform: uppercase;
+/* top: 161px; */
+}
+.btn-relase{
+  font-size: 1rem;
+  text-transform: uppercase;
+font-weight: bold;
+  border-radius: 10px;
+  background-color: var(--clr-light);
+  color: var(--clr-primary);
+  position: absolute;
+  width: 200px;
+  height: 51px;
+  left: 196px;
+  cursor: pointer;
+  /* top: 161px; */
+}
+.btn-men{
+  text-transform: uppercase;
+  font-size: 1rem;
+font-weight: bold;
+  border-radius: 10px;
+  background-color: var(--clr-light);
+  color: var(--clr-primary);
+  position: absolute;
+  width: 112px;
+  height: 51px;
+  left: 416px;
+  cursor: pointer;
+  /* top: 161px; */
+}
+.btn-women{
+  text-transform: uppercase;
+  font-size: 1rem;
+font-weight: bold;
+  border-radius: 10px;
+  background-color: var(--clr-light);
+  color: var(--clr-primary);
+  position: absolute;
+  width: 145px;
+  height: 51px;
+  left: 548px;
+  cursor: pointer;
+  /* top: 161px; */
+}
+.btn-kids{
+  text-transform: uppercase;
+  font-size: 1rem;
+font-weight: bold;
+  border-radius: 10px;
+  background-color: var(--clr-light);
+  color: var(--clr-primary);
+  position: absolute;
+  width: 113px;
+  height: 51px;
+  left: 713px;
+  cursor: pointer;
+  /* top: 161px; */
+}
+.btn-custom{
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: bold;
+    border-radius: 10px;
+  background-color: var(--clr-light);
+  color: var(--clr-primary);
+  position: absolute;
+  width: 172px;
+  height: 51px;
+  left: 846px;
+  /* top: 161px; */
+}
+.btn-sale{
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+    border-radius: 10px;
+  background-color: var(--clr-light);
+  color: var(--clr-primary);
+  position: absolute;
+  width: 112px;
+  height: 51px;
+  left: 1038px;
+  cursor: pointer;
+  /* border-radius: 5px; */
+  /* top: 161px; */
+}
+.btn-search{
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: bold;
+    border-radius: 10px;
+  background-color: var(--clr-light);
+  color: var(--clr-primary);
+  position: absolute;
+  width: 200px;
+  height: 51px;
+  left: 1170px;
+  cursor: pointer;
+  /* top: 161px; */
+}
+
+/* ----------------hero content----------------- */
+
+.hero{
+  margin-top: -30px;
+}
+.hero-wrapper{
+ display: flex;
+ justify-content: center;
+ position: relative;
+}
+.hero-left{
+  background: var(--clr-hero-left);
+  width: 650px;
+  height: 184px;
+  /* left: 1100px; */
+  top: 336px;
+  border-radius: 10px;
+  margin-right:1em ;
+
+
+}
+#hero-shoe{
+ position: absolute;
+ right: 960px;
+ top:20px;
+}
+#hero-left-title{
+  color: var(--clr-light);
+  font-family: Saira;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 27px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 110px;
+  /* margin-left: -20px; */
+}
+.hero-right{
+  width: 550px;
+  height: 184px;
+  left: 51px;
+  top: 336px;
+  border-radius: 10px;
+  margin-right:6em;
+}
+
+#btn-shop{
+  position: absolute;
+  width: 10vw;
+  left: 84%;
+  border-radius: 10px;
+  right: 4.7%;
+  top: 16.85%;
+  bottom: 55.43%;
+  background-color: var(--clr-light);
+  color: var(--clr-primary);
+  font-family: Saira;
+  font-weight: bolder;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+#btn-explore{
+  position: absolute;
+  width: 15vw;
+  left: 79%;
+  
+  border-radius: 10px;
+  right: 4.7%;
+  top: 55.43%;
+  bottom: 16.85%;
+  
+  background-color: var(--clr-light);
+  color: var(--clr-primary);
+  font-family: Saira;
+  font-weight: bolder;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+#hero-title{
+  text-transform: uppercase;
+  margin-left: 4em;
+  margin-bottom: 10px;
+  /* margin-top: 1em; */
+}
+#hero-right-title{
+  color: var(--clr-light);
+  position: absolute;
+  top: 1em;
+  left: 800px;
+  font-family: Saira;
+font-style: normal;
+font-weight: bold;
+font-size: 27px;
+line-height: 42px;
+
+max-width: 16ch;
+}
+#hero-right-para{
+  position: absolute;
+  left: 800px;
+  top: 7em;
+ 
+  color: var(--clr-light);
+  font-family: Actor;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16.7px;
+  line-height: 17px;
+  
+  max-width: 40ch;
+  
+}
+
+
+/* -------------------Shoe--------------------------------------- */
+#title-foot{
+  margin-left: 4em;
+  margin-top: 1em;
+  margin-bottom: 10px;
+}
+
+
+
+/* ===================pics wrapper========================================= */
+.pics{
+  position: relative;
+  margin-left: 80px;
+  margin-top: -350px;
+}
+.pics-wrapper{
+  display: flex; 
+
+  justify-content: space-around;
+}
+.title-last{
+  
+  margin-left: 1em;
+  margin-top: 17em;
+  margin-bottom: 10px;
+
+}
+.pic1{
+  position: absolute;
+width: 659px;
+height: 659px;
+left: 1px;
+top: 50px;
+margin-bottom: 10px;
+}
+.pic2{
+  position: absolute;
+width: 659px;
+height: 659px;
+left:690px;
+top: 50px;
+margin-top: -1px;
+
+}
+
+/* -------------- */
